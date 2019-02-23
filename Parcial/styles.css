@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.fondo {
+    background-image: url(s2-banner-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+}
+
+.contenedor_header {
+    margin: auto;
+    padding: 5% 20% 2% 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.logo {
+    width: 260px;
+    height: 140px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.botones_header {
+    height: 140px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+
+ul li a {
+
+    font-family: 'open-sans';
+    font-weight: bold;
+    font-size: 24pt;
+    margin: 0px 30px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.linea {
+    padding: 0% 20%;
+}
+
+.creative {
+    margin: auto;
+    padding: 150px 0px 0px 0px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 100pt;
+    font-family: 'open-sans';
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+.pverde {
+    color: chartreuse;
+}
+
+.lorem {
+    padding: 5% 30%;
+    color: aliceblue;
+    size: 14pt;
+    font-family: Arial;
+    text-align: center;
+}
+
+.readmore{
+    display: flex;
+justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color:limegreen;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 200px;
+    height: 45px;
+    margin: 5% auto;
+
+
+border-radius: 10px 10px;
+}
+
+.readmore a{
+   
+    color: aliceblue;
+    text-decoration: none;
+    
+
+}
+
+.fondoblanco{
+    background-image: url(fondo\ blanco.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    height: 100%;
+
+}
