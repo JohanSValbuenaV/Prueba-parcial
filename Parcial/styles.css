@@ -7,10 +7,11 @@
 
 .fondo {
     background-image: url(s2-banner-image.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-  
-    
+    width: 100vw;
+    height: 100%;
+
 }
 
 .contenedor_header {
@@ -95,7 +96,7 @@ justify-content: center;
     font-weight: bold;
     width: 200px;
     height: 45px;
-    margin: 5% auto;
+    margin: 5% auto 15% auto;
 
 
 border-radius: 10px 10px;
@@ -110,10 +111,123 @@ border-radius: 10px 10px;
 }
 
 .fondoblanco{
+    margin: 5% 20%;
+    
     background-image: url(fondo\ blanco.png);
     background-size: 100%;
     background-repeat: no-repeat;
 
-    height: 100%;
+  
+
+}
+
+.servic{
+    margin: 5%;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+.servic h1{
+    text-align: center;
+    color: darkgray;
+    font-size: 15pt;
+}
+
+.whatwe{
+    margin: 5%;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatwe h1{
+    text-align: center;
+   
+    font-size: 40pt;
+}
+
+
+.contenerdor4{
+    margin: 5% 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+width: 100%;
+}
+
+.hijo{
+    margin: 2.5% 0%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    
+}
+
+.hijo .logo{
+width: 65px;
+height: 65px;
+}
+.hijo .cabeza{
+    display: flex;
+    justify-content: flex-start;
+margin: 2.5% 0%;
+}
+
+.hijo .texto{
+    color: darkgray;
+    margin: 2.5% 0%;
+}
+
+.hijo .boton{
+   
+    margin: 2.5% 0%;
+}
+
+
+.hijo .cabeza .titulo{
+    margin: 10px;
+}
+
+.caja1 .cabeza .logo{
+background-image: url(diamante.png);
+}
+
+.caja2 .cabeza .logo{
+    background-image: url(maleta.png);
+}
+
+.caja3 .cabeza .logo{
+    background-image: url(tercero.png);
+}
+
+.caja4 .cabeza .logo{
+    background-image: url(diamante.png);
+}
+
+
+.hijo .boton{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    color: darkgray;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 15px 15px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hijo .boton a{
+    
+  color: darkgray;
+    text-align: center;
+    text-decoration: none;
+   
 
 }
