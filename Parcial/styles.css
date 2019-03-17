@@ -1,15 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+  
 }
 
 
 
 .fondo {
     background-image: url(s2-banner-image.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+      background-position: center top;
     height: 100%;
 
 }
@@ -40,6 +41,7 @@
     align-items: center;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     flex-direction: row;
     justify-content: space-around
@@ -62,14 +64,16 @@ ul li a {
 }
 
 .creative {
+ 
     margin: auto;
+    text-align: center;
     padding: 150px 0px 0px 0px;
     height: fit-content;
     width: fit-content;
     font-size: 100pt;
     font-family: 'open-sans';
     font-weight: bold;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -87,28 +91,32 @@ ul li a {
 
 .readmore{
     display: flex;
-justify-content: center;
+    justify-content: center;
     align-items: center;
     color: aliceblue;
-    background-color:limegreen;
     font-family: Arial;
     font-size: 14pt;
     font-weight: bold;
     width: 200px;
-    height: 45px;
     margin: 5% auto 15% auto;
-
-
-border-radius: 10px 10px;
+    
 }
 
 .readmore a{
-   
+    text-align: center;
+    padding: 5%;
+    border-radius: 10px 10px;
     color: aliceblue;
+    height: 100%;
+    width: 100%;
+    background-color:limegreen;
     text-decoration: none;
-    
-
 }
+.readmore a:hover{
+background-color: aliceblue;
+color:limegreen;
+}
+
 
 .fondoblanco{
     margin: 5% 20%;
@@ -192,8 +200,23 @@ margin: 2.5% 0%;
     margin: 10px;
 }
 
+
+.caja1,.caja2,.caja3,.caja4{
+display: flex;
+}
+
+.iconos{
+width: 65px;
+min-width: 65px;
+}
+
+.hijo{
+    min-width: 200px;
+}
+
 .caja1 .cabeza .logo{
 background-image: url(diamante.png);
+
 }
 
 .caja2 .cabeza .logo{
@@ -211,23 +234,32 @@ background-image: url(diamante.png);
 
 .hijo .boton{
     display: flex;
-    width: 100px;
-    height: 30px;
-    color: darkgray;
-    border-radius: 1px;
-    border-style: solid;
-    border-color: darkgray;
-    border-radius: 15px 15px;
+    width: 150px;
+    
+   
+    
     align-items: center;
     justify-content: center;
     
 }
 
 .hijo .boton a{
-    
-  color: darkgray;
+    width: 100%;
+    padding: 5px ;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 15px 15px;
+    color: darkgray;
     text-align: center;
-    text-decoration: none;
-   
+    text-decoration: none; 
+}
 
+.hijo .boton a:hover{
+    
+    background-color:  limegreen;
+    border-radius: 15px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
 }
